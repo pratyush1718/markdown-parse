@@ -1,1 +1,2 @@
-[a link on the first line](google.com)
+[](a link on the first line)
+[
