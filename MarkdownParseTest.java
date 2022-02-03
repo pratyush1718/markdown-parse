@@ -23,6 +23,13 @@ public class MarkdownParseTest {
     }
 
     @Test
+
+    public void testNew() throws IOException{
+        assertEquals(MarkdownParse.getLinks("[a [link] (hello)](google.com)")
+        , "google.com");
+    }
+
+    @Test
     public void testFile2() throws IOException {
         String contents = Files.readString(Path.of("./test-file2.md"));
         List<String> expect = List.of("https://something.com", "some-page.html");
