@@ -24,10 +24,17 @@ public class MarkdownParseTest {
 
     // @Test
 
+<<<<<<< HEAD
     // // public void testNew() throws IOException{
     // //     assertEquals(MarkdownParse.getLinks("[a [link] (hello)](google.com)")
     // //     , "google.com");
     // // }
+=======
+    // public void testNew() throws IOException{
+    //     assertEquals(MarkdownParse.getLinks("[a [link] (hello)](google.com)")
+    //     , "google.com");
+    // }
+>>>>>>> 0a22515d35b6596ff30c48fc6c961bdc57dad577
 
     @Test
     public void testFile2() throws IOException {
